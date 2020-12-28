@@ -4,7 +4,7 @@
 using namespace std;
 
 typedef	struct Node* Nodeptr;
-class Object
+class Objec
 {
 	private:
 		string name, ID, brand;
@@ -151,7 +151,7 @@ class Queue
 class Node
 {
 private:
-	Object product;
+	Objec product;
 	Nodeptr next;
 	Nodeptr list = NULL;
 
